@@ -90,6 +90,7 @@ ClawMentor-Bharat/
 │   ├── repo_analyzer/
 │   └── meeting_scribe/
 ├── docker-compose.yml         # Tank-native sovereign deployment config
+├── OpenClaw_AI_Disclosure.pdf # Official AI Disclosure document
 ├── RVCollegeOfEngineering_ClawMentors.pptx  # Hackathon project presentation file
 └── README.md
 ```
@@ -105,6 +106,8 @@ ClawMentor-Bharat/
 ---
 
 ### 🤖 AI Disclosure
+**[OpenClaw_AI_Disclosure.pdf](./OpenClaw_AI_Disclosure.pdf)** - *(Official AI utilization and compliance disclosure)*
+
 This project was developed with the assistance of the following AI models and tools:
 - **Local Intelligence (Ollama / Llama 3.2)**: Used to power the core reasoning engine, gap detection, and learning plan generation within the OpenClaw environment.
 - **AI Coding Assistants (Gemini / GitHub Copilot)**: Used to assist in writing boilerplate code, debugging Docker configurations, and structuring skill execution logic.
