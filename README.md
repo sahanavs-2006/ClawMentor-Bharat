@@ -15,7 +15,7 @@
 **[Insert Link to Project Video Demo Here]** - *(Explaining the solution & Walkthrough)*
 
 ## 📊 Project Presentation (PPT)
-**[Insert Link to PPT File Here]** - *(Understanding what we have built)*
+**[RVCollegeOfEngineering_ClawMentors.pptx](./RVCollegeOfEngineering_ClawMentors.pptx)** - *(Understanding what we have built)*
 
 ## 📦 APK / SDK
 **N/A** - *(This project is deployed as an OpenClaw Dockerized Agent)*
@@ -90,6 +90,7 @@ ClawMentor-Bharat/
 │   ├── repo_analyzer/
 │   └── meeting_scribe/
 ├── docker-compose.yml         # Tank-native sovereign deployment config
+├── RVCollegeOfEngineering_ClawMentors.pptx  # Hackathon project presentation file
 └── README.md
 ```
 
