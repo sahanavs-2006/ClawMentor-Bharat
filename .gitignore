@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.openclaw/data/
+*.docx
+node_modules/
+.gemini/

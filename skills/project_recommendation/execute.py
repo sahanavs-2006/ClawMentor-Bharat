@@ -1,0 +1,7 @@
+print("🔥 ClawMentor Bharat - Project Recommendations\n")
+print("Based on your current gaps (DSA + LLM), here are top projects:\n")
+print("1. **RAG-based AI Chatbot with Memory** (High Impact)")
+print("2. **Smart Resume Analyzer SaaS Tool**")
+print("3. **College Placement Prediction System**")
+print("4. **AI Mock Interview Platform**")
+print("\nWould you like detailed roadmap for any project?")
