@@ -1,0 +1,54 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "groq/llama-3.3-70b-versatile"
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true
+    }
+  },
+  "models": {
+    "providers": {
+      "groq": {
+        "api": "openai-responses",
+        "apiKey": "${GROQ_API_KEY}",
+        "baseUrl": "https://api.groq.com/openai/v1",
+        "models": [
+          {
+            "contextWindow": 32768,
+            "id": "llama-3.3-70b-versatile",
+            "input": [
+              "text"
+            ],
+            "name": "llama-3.3-70b-versatile"
+          },
+          {
+            "contextWindow": 8192,
+            "id": "llama-3.1-8b-instant",
+            "input": [
+              "text"
+            ],
+            "name": "llama-3.1-8b-instant"
+          },
+          {
+            "contextWindow": 8192,
+            "id": "gemma2-9b-it",
+            "input": [
+              "text"
+            ],
+            "name": "gemma2-9b-it"
+          }
+        ]
+      }
+    }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      "telegram:7522109136"
+    ]
+  }
+}

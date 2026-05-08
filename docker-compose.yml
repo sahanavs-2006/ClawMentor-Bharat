@@ -9,13 +9,14 @@ services:
       - "18789:18789"      # OpenClaw Gateway
       - "8080:8080"        # Live Canvas UI
     volumes:
-      - ./memory:/root/.openclaw/memory
-      - ./skills:/root/.openclaw/skills
-      - openclaw_data:/root/.openclaw/data
+      - ./memory:/home/node/.openclaw/memory
+      - ./skills:/home/node/.openclaw/skills
+      - openclaw_data:/home/node/.openclaw/data
     environment:
       - OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_GATEWAY_TOKEN}
       - OLLAMA_HOST=host.docker.internal
       - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - GROQ_API_KEY=${GROQ_API_KEY}
     deploy:
       resources:
         limits:
