@@ -279,7 +279,7 @@ This project was developed with the assistance of the following AI tools:
 
 <p align="center">
   <strong>🦞 ClawMentor Bharat — Your Sovereign AI Career Sentinel</strong><br/>
-  <em>Built with ❤️ for Samsung PRISM OpenClaw Hackathon 2026</em><br/><br/>
+  <em>Built for Samsung PRISM OpenClaw Hackathon 2026</em><br/><br/>
   <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"/>
 </p>
