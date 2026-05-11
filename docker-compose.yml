@@ -11,6 +11,7 @@ services:
     volumes:
       - ./memory:/home/node/.openclaw/memory
       - ./skills:/home/node/.openclaw/skills
+      - ./openclaw.json:/home/node/.openclaw/openclaw.json:ro
       - openclaw_data:/home/node/.openclaw/data
     environment:
       - OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_GATEWAY_TOKEN}
